@@ -14,6 +14,6 @@ public class CalciTest {
 	@Test
 	void multliplyTest() {
 		Calci obj = new Calci();
-		assertEquals(10, obj.multiply(2, 5));
+		assertEquals(15, obj.multiply(3, 5));
 	}
 }
